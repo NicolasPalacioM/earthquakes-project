@@ -11,13 +11,13 @@ This is a full-stack application for managing a list of earthquakes. It includes
 1. **Clone the Repository**
 
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/NicolasPalacioM/earthquakes-project
    ```
 
 2. **Navigate to the Project Directory**
 
    ```
-   cd your-repo
+   cd earthquakes-project
    ```
 
 3. **Run the Application**

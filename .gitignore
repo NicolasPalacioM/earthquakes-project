@@ -1,0 +1,161 @@
+# --------------------
+# Node.js
+# --------------------
+
+# Exclude node_modules in all directories
+node_modules/
+**/node_modules/
+
+# Exclude pnpm store
+.pnp/
+.pnp.js
+
+# Exclude lock files if not tracking them
+# Uncomment the following lines if you prefer not to track pnpm-lock.yaml
+# pnpm-lock.yaml
+# pnpm-lock.json
+
+# --------------------
+# Logs
+# --------------------
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------
+# Build Outputs
+# --------------------
+
+# General build directories
+dist/
+build/
+**/dist/
+**/build/
+
+# Next.js build directory
+.next/
+**/.next/
+
+# Output directory for static exports
+out/
+**/out/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# --------------------
+# Coverage Reports
+# --------------------
+
+coverage/
+**/coverage/
+
+# --------------------
+# Environment Variables
+# --------------------
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --------------------
+# Testing
+# --------------------
+
+# Jest coverage directory
+coverage/
+
+# --------------------
+# IDE and Editor Configurations
+# --------------------
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Other editors
+*.swo
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Docker
+# --------------------
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Docker volumes and containers
+docker-compose.override.yml
+docker-compose.*.yml
+docker-compose*.yml
+
+# Docker build cache
+.docker/
+docker/
+
+# --------------------
+# Operating System Files
+# --------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# --------------------
+# Miscellaneous
+# --------------------
+
+# Backup files
+*.bak
+*.tmp
+
+# Certificates and keys
+*.pem
+*.crt
+*.key
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# --------------------
+# Optional: Exclude Specific Directories or Files
+# --------------------
+
+# Example: Exclude data directory if present
+# data/
+
+# Example: Exclude specific configuration files
+# config/local-config.json
+
